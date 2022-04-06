@@ -10,6 +10,13 @@ export class Homework1Prob9Page implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    let miles= Number(prompt('Miles driven'));
+    let gallonsUsed= Number(prompt('Gallons used'));
+    let MPG= 0;
+    MPG= miles/gallonsUsed;
+    console.log(`${MPG} miles per gallon`);
+
   }
 
 }
