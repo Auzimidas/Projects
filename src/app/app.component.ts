@@ -12,6 +12,8 @@ export class AppComponent {
     { title: 'City name (hw1)', url: '/folder/homework1_12/homework1prob12', icon: 'newspaper' },
     { title: 'Stocks (hw1)', url: '/folder/homework1_17/homework1prob17', icon: 'newspaper' },
     { title: 'Magic 8 ball (hw2)', url: '/folder/homework2_1/homework2-prob1', icon: 'newspaper'},
+    { title: 'Average test grade (hw2)', url: '/folder/homework2_4/homework2prob4', icon: 'newspaper'},
+    { title: 'Alphabetic names (hw2)', url: '/folder/homework2_7/homework2-prob7', icon: 'newspaper'},
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
